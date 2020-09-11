@@ -1,15 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style.css">
     <title>Adaptive web-design project three</title>
 </head>
+
 <body>
+    <header id="header">
+        <p>Some header text</p>
+        <img src="./img/logo.jpg" alt="grand logo" id="header-img">
+        <nav id="nav-bar">
+            <a href="#about" class="nav-link">About us</a>
+            <a href="#brands" class="nav-link">Brands</a>
+            <a href="#contacts" class="nav-link">Contacts</a>
+        </nav>
+    </header>
     <main>
-        <p>some text</p>
+        <video id="video" src="./video/fight.mp4">What our job looks like</video>
+        <form action="" id="form">
+            <label for="email">Enter your email</label>
+            <input type="email" id="email" name="email" placeholder="box@server.domain">
+            <input type="submit" id="submit" value="Send" formaction="https://www.freecodecamp.com/email-submit">
+        </form>
     </main>
-    
+    <footer>
+        <p id="about">About us</p>
+        <p id="brands">Brands</p>
+        <p id="contacts">Contacts</p>
+    </footer>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 </body>
+
 </html>
